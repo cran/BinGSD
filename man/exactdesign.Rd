@@ -22,11 +22,11 @@ An object of the class exactdesign. This class contains:
   \item{n.I: A vector of length K which contains sample sizes required at each analysis to achieve desired type I and type
   II error requirements. n.I equals sample size for the last analysis times the vector of information fractions.}
   \item{u_K: The upper boundary for the last analysis.}
-  \item{lowerbounds: A vector of length K which contains lower boundaries for each analysis. Note that the lower
+  \item{lowerbounds: A vector of length K which contains lower boundaries for each annalysis. Note that the lower
   boundaries are non-binding.}
   \item{problow: Probabilities of crossing the lower bounds under \eqn{H_1} or the actual type II error at each analysis.}
   \item{probhi: Probability of crossing the last upper bound under \eqn{H_0} or the actual type I error.}
-  \item{power: power of the group sequential test with the value equals 1-sum(problow).}
+  \item{power: power of the group sequential test with the value euqals 1-sum(problow).}
 }
 }
 \description{
@@ -60,7 +60,7 @@ number of responses up to the kth analysis.
 
 Under the null hypothesis, \eqn{Z_k} follows a binomial distribution \eqn{b(n_k,p_0)}.
 While under the alternative hypothesis, \eqn{Z_k} follows \eqn{b(n_k,p_1)}.
-It may involve massive computation to simultaneously find proper \eqn{n_K} and \eqn{u_K}.
+It may involve massive computation to simutaneously find proper \eqn{n_K} and \eqn{u_K}.
 In fact, the sample sizes obtained from asymptotic test ought to be close to those from exact test.
 Thus, we adopt \eqn{n_K} from asymptotic test as the starting value. The starting value of \eqn{u_K} is
 computed given the \eqn{n_K}. Iteratively update \eqn{u_K} and \eqn{n_K} until errors are limited to

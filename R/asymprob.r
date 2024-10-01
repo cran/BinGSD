@@ -4,7 +4,7 @@
 #'design with binary endpoint based on asymptotic test.
 #'
 #'This function calculates probabilities of crossing the upper or the lower
-#'boundaries under null hypothesis and a set of alternative hypotheses. With \code{K=0}
+#'boundaries under null hypothesis and a set of alternative hypothese. With \code{K=0}
 #'(as default), d must be an object of class asymdesign. Meanwhile, other
 #'arguments except for \code{p_1} will be inherited from \code{d} and the input values will be
 #'ignored. With \code{K!=0}, the probabilities are derived from the input arguments. In

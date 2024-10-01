@@ -36,7 +36,7 @@
 #'firstly derived under \eqn{H_0}, without given \eqn{n_K}. Thus, there is no
 #'need to adjust \eqn{u_K} for different levels of \eqn{n_K}. Following East,
 #'given \eqn{u_K}, compute the maximum sample size \eqn{n_K} under \eqn{H_1}.
-#'The rest sample sizes can be obtained by multiplying information fractions
+#'The rest sample sizes can be obtained by multipling information fractions
 #'and \eqn{n_K}. The lower boundaries for the first \eqn{K-1} analyses are
 #'sequentially determined by a search method. The whole searching procedure
 #'stops if the overall type II error does not excess the desired level or the
@@ -50,7 +50,7 @@
 #'appropriate boundaries.
 #'
 #'@param I The information fractions at each analysis. For binary endpoints, the
-#'  information fraction for analysis k is equal to n_k/n_K, where n_k is the
+#'  information fraction for anaysis k is equal to n_k/n_K, where n_k is the
 #'  sample size available at analysis k and n_K is the sample size available at
 #'  the last analysis or the maximum sample size. Should be a positive
 #'  increasing vector of length K or K-1. If I has K elements among which the
